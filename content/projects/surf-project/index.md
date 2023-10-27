@@ -17,8 +17,8 @@ color = "red"
 > Utilizing the capabilities of ultrasonic sensors to capture and interpret object motions within a spatial domain monitored by an array of these sensors. Capturing discrete motion like tapping or continuous motion like drawing, which involves 2D space using proximity sensors like ultrasonic sensors, Arduino and a laptop. Marking an area on a smooth surface as workspace and putting proximity sensors on front and adjacent of it. Which captures distances and maps it to coordinates which we can use to recreate that motion in a program or just take it as input.
 
 # Contents
-- [Blog](https://hyouteki.github.io/me/blogs/capturing-motion-using-ultrasonic-sensors/)
-- [Docs](https://hyouteki.github.io/me/blogs/capturing-motion-using-ultrasonic-sensors/)
+- [`BLOG`](https://hyouteki.github.io/me/blogs/capturing-motion-using-ultrasonic-sensors/)
+- [`DOCS`](https://hyouteki.github.io/me/blogs/capturing-motion-using-ultrasonic-sensors/)
 - [GitHub repository](https://github.com/Hyouteki/Surf-project.git)
 - Open sourced under [MIT license](https://github.com/hyouteki/Surf-project/blob/main/LICENSE.md)
 

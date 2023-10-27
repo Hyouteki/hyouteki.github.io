@@ -16,7 +16,7 @@ color = "red"
 
 
 # Contents
-- [Latest release](https://github.com/Hyouteki/Colosseum-of-Tanks/releases)
+- [`LATEST RELEASE`](https://github.com/Hyouteki/Colosseum-of-Tanks/releases)
 - [GitHub repository](https://github.com/Hyouteki/Colosseum-of-Tanks)
 - Open sourced under [MIT license](https://github.com/Hyouteki/Colosseum-of-Tanks/blob/main/LICENSE.md)
 

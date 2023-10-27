@@ -20,7 +20,7 @@ color = "red"
 | {{< image src="/projects/memey/screenshots/more-new.jpeg" alt="More">}} | {{< image src="/projects/memey/screenshots/settings-new.jpeg" alt="Settings memes">}} | {{< image src="/projects/memey/screenshots/search-gifs-new.jpeg" alt="Single gifs">}} | 
 
 # Contents
-- [download .APK](https://github.com/Hyouteki/Memey/raw/main/Memey.apk)
+- [`DOWNLOAD .APK`](https://github.com/Hyouteki/Memey/raw/main/Memey.apk)
 - [GitHub repository](https://github.com/Hyouteki/Memey.git)
 - Open sourced under [MIT license](https://github.com/hyouteki/Memey/blob/main/LICENSE.md)
 
