@@ -28,6 +28,13 @@ enableemoji = true
   # it's set to `true` by default
   # oneHeadingSize = false
 
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = "mainlakshayhoon"
+  site = "https://hyouteki.github.io/"
+
 [languages]
   [languages.en]
     languageName = "English"
@@ -48,38 +55,39 @@ enableemoji = true
       logoText = "Hyouteki"
       logoHomeLink = "/"
 
-    [[languages.en.menu.main]]
-      identifier = "blogs"
-      name = "Blogs"
-      url = "/blogs"
-      weight=3
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "blogs"
+        name = "Blogs"
+        url = "/blogs"
+        weight=3
 
-    [[languages.en.menu.main]]
-      identifier = "projects"
-      name = "Projects"
-      url = "/projects"
-      weight=4
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+        weight=4
 
-    [[languages.en.menu.main]]
-      identifier = "writings"
-      name = "Writings"
-      url = "/writings"
-      weight=5
+      [[languages.en.menu.main]]
+        identifier = "writings"
+        name = "Writings"
+        url = "/writings"
+        weight=5
 
-    [[languages.en.menu.main]]
-      identifier = "tags"
-      name = "All tags"
-      url = "/tags"
-      weight=6
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "All tags"
+        url = "/tags"
+        weight=6
 
-    [[languages.en.menu.main]]
-      identifier = "resume"
-      name = "RESUME"
-      url = "https://github.com/Hyouteki/me/raw/main/assets/CV.pdf"
-      weight=7
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        name = "RESUME"
+        url = "https://github.com/Hyouteki/me/raw/main/assets/CV.pdf"
+        weight=7
 
-    [[languages.en.menu.main]]
-      identifier = "license"
-      name = "LICENSE"
-      url = "/license"
-      weight=8
+      [[languages.en.menu.main]]
+        identifier = "license"
+        name = "LICENSE"
+        url = "/license"
+        weight=8

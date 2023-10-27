@@ -743,9 +743,9 @@ newYCoords = [record[1] for record in inliers]
 plot("After removing outliers", newXCoords, newYCoords)
 {{< /code >}}
 
-{{< figure src="before_removing_outliers.png" alt="Before removing outliers" caption="<b>Before removing outliers</b>" captionPosition="left" captionStyle="color: black;">}}
-
-{{< figure src="after_removing_outliers.png" alt="After removing outliers" caption="<b>After removing outliers</b>" captionPosition="left" captionStyle="color: black;">}}
+{{< image src="before_removing_outliers.png" >}} | {{< image src="after_removing_outliers.png" >}}
+| :-: | :-: |
+| Before removing outliers | After removing outliers |
 
 > Outlier detection can be even more intensified by either lowering the ```ems``` value or increasing the ```min_samples``` value in the DBSCAN model.<cite>[^3]</cite>
 [^3]: Code is referenced from the blog [Outlier Detection for a 2D Feature Space in Python](https://towardsdatascience.com/outlier-detection-python-cd22e6a12098) written by Julia Ostheimer.

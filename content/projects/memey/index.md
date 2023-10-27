@@ -14,6 +14,11 @@ hideComments = false
 color = "red"
 +++
 
+| {{< image src="/projects/memey/screenshots/random-meme-new.jpeg" alt="Random memes">}} | {{< image src="/projects/memey/screenshots/trending-gifs-new.jpeg" alt="Trending gifs">}} | {{< image src="/projects/memey/screenshots/search-memes-new.jpeg" alt="Search memes">}} |
+| :--: | :-: | :-: |
+| {{< image src="/projects/memey/screenshots/search-gifs-new.jpeg" alt="Search gifs">}} | {{< image src="/projects/memey/screenshots/add-meme-new.jpeg" alt="Add memes">}} | {{< image src="/projects/memey/screenshots/single-meme-new.jpeg" alt="Single meme">}} |
+| {{< image src="/projects/memey/screenshots/more-new.jpeg" alt="More">}} | {{< image src="/projects/memey/screenshots/settings-new.jpeg" alt="Settings memes">}} | {{< image src="/projects/memey/screenshots/search-gifs-new.jpeg" alt="Single gifs">}} | 
+
 # Contents
 - [download .APK](https://github.com/Hyouteki/Memey/raw/main/Memey.apk)
 - [GitHub repository](https://github.com/Hyouteki/Memey.git)
