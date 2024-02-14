@@ -34,6 +34,8 @@ body {
 	font-style: normal;
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-color: #1d2021;
+	color: #ebdbb2;
 }
 
 button {
@@ -47,22 +49,14 @@ button {
 	font-weight: bold;
 	font-style: normal;
 	transition: transform 0.1s ease-in-out;
+	background-color: #689d6a;
+	color: #282828;
+	border-bottom: 8px solid #518554;
 }
 
-button:hover.move-left {
-	transform: translateX(-40px);
-}
-
-button:hover.move-right {
-	transform: translateX(40px);
-}
-
-button:hover.move-up {
-	transform: translateY(-15px);
-}
-
-button:hover.move-down {
-	transform: translateY(15px);
+button:hover {
+	background-color: #8ec07c;
+	border-bottom: 8px solid #76a765;
 }
 
 .banner-buttons-right {
@@ -95,10 +89,13 @@ p {
 	padding-bottom: 10px;
 	border-radius: 5px;
 	font-family: 'NerdFont', monospace;
+	background-color: #323232;
+	border-bottom: 8px solid #292929;
 }
 
 a.link {
 	text-decoration: none;
+	color: inherit;
 }
 
 .header {
@@ -108,29 +105,16 @@ a.link {
 	padding-bottom: 10px;
 	border-radius: 5px 5px 0px 0px;
 	font-family: 'NerdFont', monospace;
-}
-
-.header,
-p.news,
-p.about {
-	max-width: 100%;
-}
-
-.header {
 	margin-bottom: 0px;
 }
 
-p.about,
-p.news {
-	margin-top: 0px;
-	border-radius: 0px 0px 5px 5px;
+.header, p.about {
+	max-width: 100%;
 }
 
-p.about,
-p.news,
-p.align-me {
-	text-align: justify;
-	text-justify: inter-word;
+p.about{
+	margin-top: 0px;
+	border-radius: 0px 0px 5px 5px;
 }
 
 mark {
@@ -152,5 +136,4 @@ mark {
 	padding-right: 30px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	/*text-align: center;*/
 }
