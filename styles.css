@@ -26,31 +26,6 @@
 	font-style: italic;
 }
 
-body {
-	background-color: #1d2021;
-	color: #ebdbb2;
-}
-
-body:not(.no-oglo) {
-	background-image: url("images/background-dark.png");
-}
-
-button {
-	background-color: #689d6a;
-	color: #282828;
-	border-bottom: 8px solid #518554;
-}
-
-button:hover {
-	background-color: #8ec07c;
-	border-bottom: 8px solid #76a765;
-}
-
-p {
-	background-color: #323232;
-	border-bottom: 8px solid #292929;
-}
-
 .header {
 	background-color: #504945;
 	color: #ebdbb2;
@@ -93,6 +68,8 @@ button {
 	background-color: #689d6a;
 	color: #282828;
 	border-bottom: 8px solid #518554;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 button:hover {
