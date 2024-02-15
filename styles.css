@@ -144,6 +144,10 @@ mark {
 	visibility: hidden;
 }
 
+img.thumbnail {
+	border-radius: 5px;
+}
+
 .banner {
 	margin-left: -18px;
 	margin-right: -18px;
