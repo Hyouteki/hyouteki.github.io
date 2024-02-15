@@ -68,8 +68,6 @@ button {
 	background-color: #689d6a;
 	color: #282828;
 	border-bottom: 8px solid #518554;
-    -webkit-appearance: none;
-    appearance: none;
 }
 
 button:hover {
